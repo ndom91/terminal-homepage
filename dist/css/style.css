@@ -23,6 +23,9 @@ body {
 }
 
 #console {
+	position: absolute;
+	left: 25%;
+	top: 10%;
 	font-family: courier, monospace;
 	color: #fff;
 	width:750px;

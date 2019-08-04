@@ -83,9 +83,9 @@ function replaceUrls (text) {
 
 Typer.speed = 9
 Typer.file = 'ndo.txt' // add your own name here
-// Typer.init()
+Typer.init()
 
-// const timer = setInterval('t();', 30)
+const timer = setInterval('t();', 30)
 function t () {
   Typer.addText({ keyCode: 123748 })
 
@@ -95,7 +95,7 @@ function t () {
 }
 
 const initCurtains = () => {
-  const curtain = new Curtains('canvas')
+  const curtain = new Curtains('console')
 
   // handling errors
   curtain.onError(function () {
@@ -220,8 +220,8 @@ const initCurtains = () => {
     simpleCanvasContext.translate(-simpleCanvas.width / 2, -simpleCanvas.height / 2)
 
     // draw a red rectangle
-    simpleCanvasContext.fillStyle = '#ff0000'
-    simpleCanvasContext.fillRect(simpleCanvas.width / 2 - simpleCanvas.width / 8, simpleCanvas.height / 2 - simpleCanvas.height / 8, simpleCanvas.width / 4, simpleCanvas.height / 4)
+    simpleCanvasContext.fillStyle = 'rgba(0,0,0,0)'
+    // simpleCanvasContext.fillRect(simpleCanvas.width / 2 - simpleCanvas.width / 8, simpleCanvas.height / 2 - simpleCanvas.height / 8, simpleCanvas.width / 4, simpleCanvas.height / 4)
   }
 
   function handleMovement (e, plane) {
