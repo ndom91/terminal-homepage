@@ -1,13 +1,30 @@
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cd docs/<!-- laglaglaglaglaglag -->AboutMe
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->ndo.txt<br/><br/>
-My favorite code quote, "<span id="k">Quote you like</span>". <!-- sjkfhskjf -->
+<p>Hey There! This is my terminal portfolio website.
+<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+You can see, my work listed below, as well as some contact methods. <br>
+Some more about me...<br> 
+<!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
+After Uni, I came to Germany and began working as a System Administrator at a datacenter in Frankfurt. The company was relatively small, so I had a ton of room to grow, learn, and experiment with things.
+<!-- bitlagbitlagbitlagbitlagbitlagbitlag --><br>
+This led to falling in love with Linux generally, Ubuntu more specifically, and Xubuntu most specifically. As well as the whole world of Dev Ops / Automation. <br> 
+<!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
+More and more development work in my Sys Admin roll began creating an appetite for more professional Web Development work. Which led to the next chapter in my life, <a href="https://syzygy.com">Syzygy</a>
+<!-- delaydelaydelaydelaydelaydelaydelay --><br>
+You can find some of my open source projects here:
+<!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay--><br>
+<a href="https://github.com/ndom91/CompanyVacations">Vacation Management</a><br>
+<a href="https://github.com/ndom91/NewtelcoMaintenance">Network Maintenance Management</a><br> 
+<a href="https://github.com/ndom91/nt-noc-dashboard">NOC Dashboard</a>
+<br>
+As well as some of my online profiles:<br> 
+<a href="https://github.com/ndom91">Github</a><br>
+<a href="https://twitter.com/ndom91">Twitter</a><br>
+<a href="https://linkedin.com/in/ndom91">LinkedIn</a><br>
 
-Hey There! This is the portflio website in the skin of a terminal.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>You can see that, this is how your portfolio would look like.</p>
-<p>You can introduce yourself here.</p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
-<p> You can also tell what you've worked and known and what skills you have, you can also give link to your professional portfolio here<a href="link"> portfolio</a>.</p><!-- delaydelaydelaydelaydelaydelaydelay -->
-<p>Tell more about yourself. <br><br><br>Give your project links or something like that. <a href="link"> Here you go</a>.</p><!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay-->
-<p> You can give links to other professional profiles you have on Internet, here: <br> <a href="link1">Profile1</a> <br> <a href="link2">Profile2</a> and <br> <a href="link3">Profile3</a>.</p>
+Feel free to contact me via email if you prefer, at: 
+<!-- slightdelayhere-->
+info<i style="color: #66EE66">[at]</i>ni<i style="color: #66EE66">[dot]</i>co<i style="color: #66EE66">[dot]</i>de
+</p>
 
-You can also give your email ID for contacting you<!-- slightdelayhere-->, feel free to send me an email at<!-- longlonglongcomment --><a href="Your email ID">Email</a>.
-
-<p>Cheers!</p>
+<p>P.S. you can find my dotfiles <a href="https://github.com/ndom91/dotfiles">here</a>

@@ -1,10 +1,10 @@
 body {
-	background-color: #000
+	background-color: rgb(158, 158, 158);
 }
 
 #canvas {
-	height: 100vh;
-	width: 100vw;
+	height: auto;
+	width: 98vw;
 
 	opacity: 1;
 	transition: opacity 0.5s ease-in;
@@ -22,16 +22,49 @@ body {
 	display: none;
 }
 
-#console {
-	position: absolute;
-	left: 25%;
-	top: 10%;
-	font-family: courier, monospace;
-	color: #fff;
+.terminal-window {
+	margin-top: 50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.terminal-window header .button {
+    width: 12px;
+    height: 12px;
+    margin: 10px 4px 0 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+.terminal-window header .button.red {
+    background: #DD373B;
+}
+.terminal-window header .button.yellow {
+    background: #F6AE24;
+}
+.terminal-window header .button.green {
+    background: #33D234;
+}
+
+header {
 	width:750px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:100px;
+	height: 30px;
+	background: #fff;
+	border-radius: 4px 4px 0 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#console {
+	font-family: courier, monospace;
+	color: #fff;
+	background-color: rgba(54, 54, 54, 0.87);
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 20px;
+	padding-bottom: 50px;
 	font-size:14px;
 }
 
