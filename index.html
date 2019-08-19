@@ -7,7 +7,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
-    <script src="dist/js/curtains.min.js"></script>
     <link rel="stylesheet" type="text/css" href="dist/css/style.css">
   </head>
   <body>
@@ -22,64 +21,7 @@
           <div id="console"></div>
         </div>
       </div>
-      <div id="curtain" data-vs-id="simple-plane-vs" data-fs-id="simple-plane-fs">
-				<canvas id="canvas-texture" data-sampler="simplePlaneCanvasTexture"></canvas>
-			</div>
     </div>
-    <!-- vertex shader -->
-    <script id="simple-plane-vs" type="x-shader/x-vertex">
-        #ifdef GL_ES
-        precision mediump float;
-        #endif
-
-        // default mandatory variables
-        attribute vec3 aVertexPosition;
-        attribute vec2 aTextureCoord;
-
-        uniform mat4 uMVMatrix;
-        uniform mat4 uPMatrix;
-
-        uniform mat4 planeTextureMatrix;
-
-        // custom variables
-        varying vec3 vVertexPosition;
-        varying vec2 vTextureMatrixCoord;
-
-        uniform float uPlaneDeformation;
-
-        void main() {
-
-            vec3 vertexPosition = aVertexPosition;
-
-            // cool effect on scroll
-            vertexPosition.y += sin(((vertexPosition.x + 1.0) / 2.0) * 3.141592) * (sin(uPlaneDeformation / 90.0));
-
-            gl_Position = uPMatrix * uMVMatrix * vec4(vertexPosition, 1.0);
-
-            // varyings
-            vVertexPosition = vertexPosition;
-            vTextureMatrixCoord = (planeTextureMatrix * vec4(aTextureCoord, 0.0, 1.0)).xy;
-        }
-      </script>
-      <script id="simple-plane-fs" type="x-shader/x-fragment">
-        #ifdef GL_ES
-        precision mediump float;
-        #endif
-
-        varying vec3 vVertexPosition;
-        varying vec2 vTextureCoord;
-        varying vec2 vTextureMatrixCoord;
-
-        uniform sampler2D planeTexture;
-        uniform float uPlaneDeformation;
-
-        void main( void ) {
-            // slides transitions
-            vec4 finalColor = texture2D(planeTexture, vTextureMatrixCoord);
-
-            gl_FragColor = finalColor;
-        }
-      </script>
     <script src="dist/js/index.js"></script>
     <script src="dist/js/terminal.js"></script>
   </body>
