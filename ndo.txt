@@ -19,7 +19,8 @@ You can find some of my open source projects here:
 <!-- delaydelaydelaydelaydelaydelaydelay -->
 <a href="#" data-featherlight="dist/img/noc.png"><img width="450px" src="dist/img/noc_px.png" alt="Newtelco Vacation Website Screenshot"></img></a>
 
-<br>
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat social.txt
+
 As well as some of my online profiles:<br> 
 <a href="https://github.com/ndom91">Github</a><br>
 <a href="https://twitter.com/ndom91">Twitter</a><br>
