@@ -9,15 +9,27 @@ I was a Sys Admin in a datacenter for a few years, before moving into my current
 <!-- delaydelaydelaydelaydelaydelaydelay --><br>
 You can find some of my open source projects here:
 <!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay-->
-<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag --><a href="https://github.com/ndom91/CompanyVacations">Vacation Management</a>
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->vacation.txt
+
+Newtelco Vacation App
+URL: <a href="https://github.com/ndom91/CompanyVacations">ndom91/CompanyVacations</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
-<a href="#" data-featherlight="dist/img/vacation.png"><img width="450px" src="dist/img/vacation_px.png" alt="Newtelco Vacation Website Screenshot"></img></a><br>
-<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag --><a href="https://github.com/ndom91/NewtelcoMaintenance">Network Maintenance Management</a>
+<a href="#" data-featherlight="src/img/vacation.png"><img width="450px" src="src/img/vacation_px.png" alt="Newtelco Vacation Website Screenshot"></img></a><br>
+<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->maintenance.txt
+
+Newtelco Maintenance Application
+URL: <a href="https://github.com/ndom91/NewtelcoMaintenance">ndom91/NewtelcoMaintenance</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
-<a href="#" data-featherlight="dist/img/maintenance.png"><img width="450px" src="dist/img/maintenance_px.png" alt="Newtelco Vacation Website Screenshot"></img></a><br>
-<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag --><a href="https://github.com/ndom91/nt-noc-dashboard">NOC Dashboard</a>
+<a href="#" data-featherlight="src/img/maintenance.png"><img width="450px" src="src/img/maintenance_px.png" alt="Newtelco Maintenance Screenshot"></img></a><br>
+<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->noc.txt
+
+Newtelco NOC Dashboard
+URL: <a href="https://github.com/ndom91/nt-noc-dashboard">ndom91/nt-noc-dashboard</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
-<a href="#" data-featherlight="dist/img/noc.png"><img width="450px" src="dist/img/noc_px.png" alt="Newtelco Vacation Website Screenshot"></img></a>
+<a href="#" data-featherlight="src/img/noc.png"><img width="450px" src="src/img/noc_px.png" alt="Newtelco NOC Dashboard Screenshot"></img></a>
+<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat social.txt
 
