@@ -1,21 +1,24 @@
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cd docs/<!-- laglaglaglaglaglag -->AboutMe
-<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->ndo.txt<br/><br/>
-<p>Hey There! This is my terminal portfolio website.
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->ndo.txt
+<p>Welcome to my portfolio terminal.
 <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
-You can see, my work listed below, as well as some contact methods. <br>
-Some more about me...<br> 
+Below are some of my most recent projects, as well as links to more info <br>
+About me, as well as how to get in contact with me<br> 
 <!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
-After Uni, I came to Germany and began working as a System Administrator at a datacenter in Frankfurt. The company was relatively small, so I had a ton of room to grow, learn, and experiment with things.
-<!-- bitlagbitlagbitlagbitlagbitlagbitlag --><br>
-This led to falling in love with Linux generally, Ubuntu more specifically, and Xubuntu most specifically. As well as the whole world of Dev Ops / Automation. <br> 
-<!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
-More and more development work in my Sys Admin roll began creating an appetite for more professional Web Development work. Which led to the next chapter in my life, <a href="https://syzygy.com">Syzygy</a>
+I was a Sys Admin in a datacenter for a few years, before moving into my current role as frontend web dev.
 <!-- delaydelaydelaydelaydelaydelaydelay --><br>
 You can find some of my open source projects here:
-<!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay--><br>
-<a href="https://github.com/ndom91/CompanyVacations">Vacation Management</a><br>
-<a href="https://github.com/ndom91/NewtelcoMaintenance">Network Maintenance Management</a><br> 
-<a href="https://github.com/ndom91/nt-noc-dashboard">NOC Dashboard</a>
+<!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay-->
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag --><a href="https://github.com/ndom91/CompanyVacations">Vacation Management</a>
+<!-- delaydelaydelaydelaydelaydelaydelay -->
+<img width="450px" src="dist/img/vacation_px.png" alt="Newtelco Vacation Website Screenshot"></img><br>
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag --><a href="https://github.com/ndom91/NewtelcoMaintenance">Network Maintenance Management</a>
+<!-- delaydelaydelaydelaydelaydelaydelay -->
+<img width="450px" src="dist/img/maintenance_px.png" alt="Newtelco Vacation Website Screenshot"></img><br>
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag --><a href="https://github.com/ndom91/nt-noc-dashboard">NOC Dashboard</a>
+<!-- delaydelaydelaydelaydelaydelaydelay -->
+<img width="450px" src="dist/img/noc_px.png" alt="Newtelco Vacation Website Screenshot"></img>
+
 <br>
 As well as some of my online profiles:<br> 
 <a href="https://github.com/ndom91">Github</a><br>
