@@ -61,7 +61,7 @@ function extend(obj, props) {
 }
 
 function applyRef(ref, value) {
-  if (ref != null) {
+  if (ref) {
     if (typeof ref == 'function') ref(value);else ref.current = value;
   }
 }

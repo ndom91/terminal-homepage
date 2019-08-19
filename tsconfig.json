@@ -1,4 +1,5 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
     "target": "es6",
     "moduleResolution": "node",
@@ -6,15 +7,15 @@
     "rootDir": "./src",
     "outDir": "./dist",
 
+    "strict": false,
+    "sourceMap": true,
+    "skipLibCheck": true,
+
     "jsx": "react",
     "jsxFactory": "h",
 
     "baseUrl": ".",
-    "paths": {
-      "/web_modules/*.js": [
-        "node_modules/*",
-        "web_modules/*.js",
-      ]
-    },
-  }
+  },
+  "include": [ "./src/**/*.tsx", "./src/**/*.ts" ],
+  "exclude":  [ "./node_modules/*", "./web_modules/*.js", ]
 }
