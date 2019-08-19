@@ -11,13 +11,13 @@ You can find some of my open source projects here:
 <!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay-->
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag --><a href="https://github.com/ndom91/CompanyVacations">Vacation Management</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
-<img data-action="lumos" width="450px" src="dist/img/vacation_px.png" alt="Newtelco Vacation Website Screenshot"></img><br>
+<a href="#" data-featherlight="dist/img/vacation.png"><img width="450px" src="dist/img/vacation_px.png" alt="Newtelco Vacation Website Screenshot"></img></a><br>
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag --><a href="https://github.com/ndom91/NewtelcoMaintenance">Network Maintenance Management</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
-<img data-action="lumos" width="450px" src="dist/img/maintenance_px.png" alt="Newtelco Vacation Website Screenshot"></img><br>
+<a href="#" data-featherlight="dist/img/maintenance.png"><img width="450px" src="dist/img/maintenance_px.png" alt="Newtelco Vacation Website Screenshot"></img></a><br>
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag --><a href="https://github.com/ndom91/nt-noc-dashboard">NOC Dashboard</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
-<img data-action="lumos" width="450px" src="dist/img/noc_px.png" alt="Newtelco Vacation Website Screenshot"></img>
+<a href="#" data-featherlight="dist/img/noc.png"><img width="450px" src="dist/img/noc_px.png" alt="Newtelco Vacation Website Screenshot"></img></a>
 
 <br>
 As well as some of my online profiles:<br> 
