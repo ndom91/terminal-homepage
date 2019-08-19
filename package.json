@@ -1,19 +1,14 @@
 {
-  "name": "terminaljs-ndo",
-  "version": "0.0.1",
-  "description": "",
-  "main": "server.js",
   "scripts": {
     "prepare": "pika-web",
-    "start": "serve ./"
+    "start": "tsc && serve ./"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "terminal.js": "^1.0.10"
+    "preact": "^8.4.2"
   },
   "devDependencies": {
-    "@pika/web": "^0.5.1",
-    "serve": "^11.1.0"
+    "@pika/web": "^0.3.2",
+    "serve": "^10.1.2",
+    "typescript": "^3.0.0"
   }
 }
