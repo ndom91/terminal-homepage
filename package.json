@@ -1,14 +1,18 @@
 {
   "scripts": {
     "build": "tsc && pika-web",
-    "prepare": "pika-web",
+    "prepare": "pika install",
     "start": "tsc && serve ./"
   },
   "dependencies": {
     "picostyle": "^2.2.0",
-    "preact": "^8.4.2"
+    "preact": "^10.0.0-rc.1",
+    "reactyper": "^1.0.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
     "@pika/web": "^0.3.2",
     "@types/eslint": "^4.16.8",
     "@types/react": "^16.9.2",
@@ -16,6 +20,7 @@
     "@types/styled-components": "^4.1.18",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
+    "babel-plugin-module-resolver": "^3.2.0",
     "eslint": "^6.2.0",
     "eslint-config-prettier": "^6.1.0",
     "eslint-config-react": "^1.1.7",

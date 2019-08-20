@@ -2,6 +2,8 @@
 import { Component, h } from '/web_modules/preact.js'
 // @ts-ignore
 import picostyle from '/web_modules/picostyle.js'
+// @ts-ignore
+import Typer from '/web_modules/reactyper.js'
 
 const ps = picostyle(h)
 
@@ -19,6 +21,12 @@ export interface State {
 
 export default class App extends Component<any, any> {
   render() {
-    return <Container id="console" />
+    return (
+      <div>
+        <Container id="console">
+          <Typer spool={['etsttttt!']} />
+        </Container>
+      </div>
+    )
   }
 }
