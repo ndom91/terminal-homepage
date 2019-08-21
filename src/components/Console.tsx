@@ -1,11 +1,12 @@
 // @ts-ignore
-import { Component, h } from '/web_modules/preact.js'
+import { Component, h } from 'preact'
 // @ts-ignore
-import picostyle from '/web_modules/picostyle.js'
+import picostyle, { createNode } from 'picostyle'
 // @ts-ignore
-import Typer from '/web_modules/reactyper.js'
+import Typer from 'reactyper'
 
-const ps = picostyle(h)
+// @ts-ignore
+const ps = picostyle(h as createNode)
 
 const Container = ps('div')({
   display: 'flex'
@@ -23,8 +24,12 @@ export default class App extends Component<any, any> {
   render() {
     return (
       <div>
+        {/* 
+          // @ts-ignore */}
         <Container id="console">
-          <Typer spool={['etsttttt!']} />
+          {/* 
+          // @ts-ignore */}
+          <Typer spool={['🎉 ReacTyper']} />
         </Container>
       </div>
     )

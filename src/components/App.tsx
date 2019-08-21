@@ -1,10 +1,10 @@
 // @ts-ignore
-import { Component, render, h } from '/web_modules/preact.js'
+import { Component, render, h } from 'preact'
 // @ts-ignore
-import picostyle from '/web_modules/picostyle.js'
-import Terminal from './components/Terminal.js'
+import picostyle, { createNode } from 'picostyle'
+import Terminal from './Terminal'
 
-const ps = picostyle(h)
+const ps = picostyle(h as createNode)
 
 const Wrapper = ps('div')({
   display: 'flex',
@@ -25,6 +25,7 @@ export interface State {
 export default class App extends Component<any, any> {
   render() {
     return (
+      // @ts-ignore */
       <Wrapper>
         {/* 
           // @ts-ignore */}

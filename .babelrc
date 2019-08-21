@@ -1,7 +1,7 @@
 {
   "plugins": [
-    ["transform-react-jsx", { "pragma": "h" }],
-    ["@pika/web/assets/babel-plugin.js"],
+    ["import-pika-web", { "dir": "./dist/web_modules" }],
+    // ["@pika/web/assets/babel-plugin.js"],
     [ "module-resolver", {
     "root": ["."],
     "alias": {
@@ -14,11 +14,12 @@
     }
     }]
   ],
-  "presets": [
-    ["@babel/preset-env", {
-      "targets": {
-        "esmodules": true
-      }
-    }]
-  ],
+  // "presets": [
+  //   ["@babel/preset-env", {
+  //     "targets": {
+  //       "esmodules": true
+  //     },
+  //   }],
+  //   "@babel/preset-typescript"
+  // ],
 }

@@ -1,8 +1,8 @@
 // @ts-ignore
-import { Component, h } from '/web_modules/preact.js'
+import { Component, h } from 'preact'
 // @ts-ignore
 // import picostyle from '/web_modules/picostyle.js'
-import Console from './Console.js'
+import Console from './Console'
 
 export interface Props {
   value?: string

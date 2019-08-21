@@ -1,7 +1,6 @@
-// @ts-ignore
-import { render } from '/web_modules/preact.js'
-// @ts-ignore
-import App from './components/App'
-import './style.css'
-render(App, document.querySelector('#app'))
-//# sourceMappingURL=index.js.map
+import { h, render } from "./web_modules/preact.js";
+import App from "./components/App.js";
+var appMount = document.querySelector('#app'); // @ts-ignore
+
+if (appMount) render(h(App, null), appMount);
+export default App;
