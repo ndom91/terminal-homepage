@@ -1,12 +1,13 @@
 {
   "scripts": {
     "build": "tsc && pika-web",
-    "prepare": "pika install",
+    "prepare": "pika-web",
     "start": "tsc && serve ./"
   },
   "dependencies": {
     "picostyle": "^2.2.0",
-    "preact": "^10.0.0-rc.1",
+    "preact": "^8.5.2",
+    "preact-compat": "^3.19.0",
     "reactyper": "^1.0.3"
   },
   "devDependencies": {
@@ -37,7 +38,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
-      "eslint './src/**/*.{js,jsx,ts,tsx}'",
+      "eslint --fix './src/**/*.{js,jsx,ts,tsx}'",
       "git add"
     ]
   },
