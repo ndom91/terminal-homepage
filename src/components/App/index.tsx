@@ -12,9 +12,11 @@ const Wrapper = styled('div')`
 
 const App: preact.FunctionalComponent = () => (
   <div>
-    // @ts-ignore
+    {/*
+    // @ts-ignore */}
     <Wrapper>
-      // @ts-ignore
+      {/*
+      // @ts-ignore */}
       <Terminal />
     </Wrapper>
   </div>

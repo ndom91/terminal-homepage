@@ -8,7 +8,8 @@ const Terminal: preact.FunctionalComponent = () => (
       <div className="button yellow" />
       <div className="button green" />
     </header>
-    // @ts-ignore
+    {/*
+    // @ts-ignore */}
     <Console />
   </div>
 )
