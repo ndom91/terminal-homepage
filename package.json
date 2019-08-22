@@ -4,69 +4,45 @@
     "build:esm": "pika-web --dest dist/web_modules",
     "build:js": "babel dist -d dist --ignore 'dist/web_modules/*.js'",
     "build:js:watch": "babel dist -d dist --ignore 'dist/web_modules/*.js' --watch",
-    "build:ts": "rm -rf dist && tsc --skipLibCheck",
+    "build:ts": "rm -rf dist && tsc",
     "build:ts:watch": "tsc -w",
-    "copy": "copyfiles 'src/*.html' 'src/*.css' 'src/**/*.gif' dist -u 1",
+    "copy": "copyfiles 'src/*.html' 'src/**/*.gif' dist -u 1",
     "dev": "npm run build && concurrently 'npm run build:ts:watch' 'npm run build:js:watch' 'serve -s dist'",
     "lint": "eslint --ext .ts,.tsx src --ignore 'web_modules/**/*.js'",
     "prestart": "npm run build",
     "start": "serve -s dist"
   },
-  "dependencies": {
-    "picostyle": "^2.2.0",
-    "preact": "^8.5.2",
-    "preact-compat": "^3.19.0",
-    "preact-emotion": "^9.2.12",
-    "preact-router": "^2.6.1",
-    "reactyper": "^1.0.3"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/preset-typescript": "^7.3.3",
-    "@babel/register": "^7.5.5",
-    "@pika/web": "^0.3.2",
-    "@types/eslint": "^4.16.8",
-    "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.9.0",
-    "@types/styled-components": "^4.1.18",
-    "@typescript-eslint/eslint-plugin": "^2.0.0",
-    "@typescript-eslint/parser": "^2.0.0",
-    "babel-plugin-import-pika-web": "0.0.5",
-    "babel-plugin-module-resolver": "^3.2.0",
-    "copyfiles": "^2.1.1",
-    "eslint": "^6.2.0",
-    "eslint-config-prettier": "^6.1.0",
-    "eslint-config-react": "^1.1.7",
-    "eslint-config-standard-preact": "^1.1.6",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.3",
-    "husky": "^3.0.4",
-    "lint-staged": "^9.2.3",
-    "prettier": "^1.18.2",
-    "serve": "^10.1.2",
-    "ts-loader": "^6.0.4",
-    "typescript": "^3.5.3",
-    "webpack-modules": "^1.0.0"
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "eslint --fix './src/**/*.{js,jsx,ts,tsx}'",
-      "git add"
+  "@pika/web": {
+    "webDependencies": [
+      "emotion",
+      "preact",
+      "preact-emotion",
+      "preact-router"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "dependencies": {
+    "emotion": "^9.2.12",
+    "preact": "^8.4.2",
+    "preact-emotion": "^9.2.12",
+    "preact-router": "^2.6.1"
   },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true,
-    "printWidth": 80,
-    "tabWidth": 2
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@pika/web": "^0.4.2",
+    "@typescript-eslint/eslint-plugin": "^1.8.0",
+    "@typescript-eslint/parser": "^1.8.0",
+    "babel-plugin-import-pika-web": "0.0.5",
+    "concurrently": "^4.1.0",
+    "copyfiles": "^2.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-typescript": "^4.0.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "serve": "^11.0.0",
+    "typescript": "^3.4.5"
   }
 }
