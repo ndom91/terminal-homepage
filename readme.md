@@ -1,8 +1,10 @@
-# Preact + TypeScript + @pika/web Example
+# TerminalJS Homepage
 
-Example using TypeScript, Preact, and [@pika/web], a new ESM bundler.
+Pika/Web + Preact + Typescript Test Project
 
-## Example
+![screenshot1](https://imgur.com/rV6Kga9.png)
+
+## Getting Started
 
 ```bash
 npm i
@@ -23,5 +25,6 @@ import preact from "./web_modules/preact.js"; // Into this ✅
 
 [Read the docs][babel-plugin] to learn more.
 
-[@pika/web]: https://github.com/pikapkg/web
-[babel-plugin]: https://github.com/dangodev/babel-plugin-import-pika-web
+### Thanks
+[dangodev/pika-web-preact](https://github.com/dangodev/pika-web-preact)
+[@pika/web](https://github.com/pikapkg/web)
