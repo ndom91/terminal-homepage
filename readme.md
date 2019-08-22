@@ -15,7 +15,7 @@ It’ll run a multi-page app at `localhost:5000`.
 
 ## Babel Plugin
 
-This example app makes use of [babel-plugin-import-pika-web][babel-plugin].
+This example app makes use of [babel-plugin-import-pika-web](https://www.npmjs.com/package/babel-plugin-import-pika-web).
 It transforms all absolute imports like so:
 
 ```js
@@ -23,8 +23,8 @@ import preact from "preact"; // Transforms this 🚫
 import preact from "./web_modules/preact.js"; // Into this ✅
 ```
 
-[Read the docs][babel-plugin] to learn more.
+[Read the docs](https://www.npmjs.com/package/babel-plugin-import-pika-web) to learn more.
 
 ### Thanks
-[dangodev/pika-web-preact](https://github.com/dangodev/pika-web-preact)
+[dangodev/pika-web-preact](https://github.com/dangodev/pika-web-preact)   
 [@pika/web](https://github.com/pikapkg/web)
