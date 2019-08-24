@@ -49,6 +49,12 @@ header {
 	font-size:14px;
 }
 
+.terminal-body {
+	background-color: rgba(0, 0, 0, 0.737);
+	min-height: 10px;
+
+}
+
 a {
 	color: #0bc;
 	text-decoration: none;

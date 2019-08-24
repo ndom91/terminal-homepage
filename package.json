@@ -1,4 +1,12 @@
 {
+  "name": "terminal-homepage",
+  "version": "0.0.5",
+  "description": "Example Pika + Preact + Typescript + Babel website",
+  "author": "Nico Domino <yo@ni.co.de>",
+  "license": "MIT",
+  "repository": "git+https://github.com/ndom91/terminal-homepage.git",
+  "bugs": "https://github.com/ndom91/terminal-homepage/issues",
+  "homepage": "https://github.com/ndom91/terminal-homepage#readme",
   "scripts": {
     "build": "npm run build:ts && npm run build:esm && npm run build:js && npm run copy",
     "build:esm": "pika-web --dest dist/web_modules",
@@ -19,7 +27,7 @@
       "preact-compat",
       "preact-emotion",
       "preact-router",
-      "reactyper"
+      "preactyper"
     ]
   },
   "dependencies": {
@@ -28,7 +36,7 @@
     "preact-compat": "^3.19.0",
     "preact-emotion": "^9.2.12",
     "preact-router": "^2.6.1",
-    "reactyper": "^1.0.3"
+    "preactyper": "^0.6.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

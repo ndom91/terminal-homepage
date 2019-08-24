@@ -1,3 +1,4 @@
+const text:string = `
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cd docs/<!-- laglaglaglaglaglag -->AboutMe
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->ndo.txt
 <p>Welcome to my portfolio terminal.
@@ -44,3 +45,6 @@ info<i style="color: #66EE66">[at]</i>ni<i style="color: #66EE66">[dot]</i>co<i 
 </p>
 
 <p>P.S. you can find my dotfiles <a href="https://github.com/ndom91/dotfiles">here</a>
+`
+
+export default text
