@@ -8,10 +8,9 @@ const Container = styled('div')`
 
 const Console: preact.FunctionalComponent = () => (
   <div>
-    {/*
-    // @ts-ignore */}
     <Container id="console">
-      {/* <Typer spool={['🎉 ReacTyper']} /> */}
+      {/* // @ts-ignore
+      <Typer spool={['🎉 ReacTyper']} /> */}
     </Container>
   </div>
 )

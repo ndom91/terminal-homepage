@@ -14,7 +14,11 @@
     "outDir": "dist",
     "sourceMap": true,
     "strict": true,
-    "target": "es5"
+    "target": "es5",
+    "paths": {
+      "react": ["web_modules/preact-compat"],
+      "react-dom": ["web_modules/preact-compat"]
+    }
   },
-  "exclude": ["node_modules", "web_modules"]
+  "exclude": ["./node_modules", "./web_modules"]
 }
