@@ -50,9 +50,8 @@ header {
 }
 
 .terminal-body {
-	background-color: rgba(0, 0, 0, 0.737);
+	/* background-color: rgba(0, 0, 0, 0.737); */
 	min-height: 10px;
-
 }
 
 a {

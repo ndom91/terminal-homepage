@@ -1,6 +1,7 @@
 import { h } from 'preact'
 import styled from 'preact-emotion'
 import Typist from '../Typist'
+import text from './text'
 
 const Container = styled('div')`
   display: 'flex';
@@ -11,9 +12,7 @@ const Console: preact.FunctionalComponent = () => (
   <div>
     <Container id="console">
       <Typist
-        accessCountimer={ 0 }
-        speed={ 9 }
-        file='ndo.txt'
+        file={text}
        />
     </Container>
   </div>

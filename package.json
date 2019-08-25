@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "emotion": "^9.2.12",
-    "preact": "^8.4.2",
+    "preact": "^8.5.2",
     "preact-compat": "^3.19.0",
     "preact-emotion": "^9.2.12",
     "preact-router": "^2.6.1",
@@ -41,6 +41,10 @@
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
     "@pika/web": "^0.4.2",
