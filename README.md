@@ -1,6 +1,6 @@
 # 🖥️ Terminal Homepage
 
-🎉 @Pika/Web + Preact + Typescript + Babel Example Project
+#### 🎉 `@Pika/Web` + `Preact` + `Typescript` + `Babel` Example Project
 
 ![screenshot1](terminal.gif)
 
@@ -12,6 +12,10 @@ npm start
 ```
 
 It will then be available at `localhost:5000`.
+
+## 🚧 To Do
+
+- [ ] Disallow rendering of `<` before `dangerouslySetInnerHTML` notices it is reading in an HTML tag, instead of text.
 
 ### 🙏 Special Thanks
 [@pika/web](https://github.com/pikapkg/web)  
