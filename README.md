@@ -7,8 +7,8 @@
 ## 🚀 Getting Started
 
 ```bash
-npm i
-npm start
+npm install
+npm run dev
 ```
 
 It will then be available at `localhost:5000`.
