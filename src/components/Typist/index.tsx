@@ -21,9 +21,8 @@ class Typist extends Component<TypistType, TypistState> {
     }
   }
 
-
   componentDidMount() {
-    this.timeoutId = window.setInterval(() => { this.write() }, 20)
+    this.timeoutId = window.setInterval(() => { this.write() }, 40)
   }
 
   write = () => {
@@ -35,12 +34,21 @@ class Typist extends Component<TypistType, TypistState> {
       index
     } = this.state 
 
-    const intermediateText = file.slice(0, file.length - (file.length - index))
+    const intermediateTextFn = (position: number) => {
+      let text = file.slice(0, file.length - (file.length - position))
+      if (text.slice(-1) === '<') {
+        text = file.slice(0, file.length - (file.length - position + 1))
+      }
+      if (index < file.length) {
+        text = `${text}|`
+      }
+      return text
+    }
+    const toBeRenderedText = intermediateTextFn(index)
 
-    const newIndex = index + 1
-    this.setState({ 
-      renderText: intermediateText,
-      index: newIndex
+    this.setState({
+          renderText: toBeRenderedText,
+          index: index + 1
     })
 
     const body = document.querySelector('body')
@@ -51,7 +59,6 @@ class Typist extends Component<TypistType, TypistState> {
         behavior: 'auto'
       });
     }
-
 
     if (index >= file.length) {
       clearInterval(this.timeoutId)

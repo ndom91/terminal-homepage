@@ -11,11 +11,7 @@ npm install
 npm run dev
 ```
 
-It will then be available at `localhost:5000`.
-
-## 🚧 To Do
-
-- [ ] Disallow rendering of `<` before `dangerouslySetInnerHTML` notices it is reading in an HTML tag, instead of text.
+It will then be available at `localhost:5000`
 
 ### 🙏 Special Thanks
 [@pika/web](https://github.com/pikapkg/web)  

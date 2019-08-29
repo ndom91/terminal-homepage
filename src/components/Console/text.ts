@@ -1,29 +1,29 @@
 const text:string = `
-<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cd docs/<!-- laglaglaglaglaglag -->AboutMe
-<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->ndo.txt
-<p>Welcome to my portfolio terminal.
-<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cd Documents/<!-- lag -->About
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- lag -->ndo.txt
+<p>Welcome to my cli portfolio.
+<!-- laglaglaglaglaglaglag -->
 Below are some of my most recent projects, as well as links to more info about me
-<!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
+<!-- bitlagbitlagbitlag -->
 I was a Sys Admin in a datacenter for a few years, before moving into my current role as frontend web dev.
-<!-- delaydelaydelaydelaydelaydelaydelay -->
+<!-- delaydelaydelaydelaydelaydelay -->
 You can find some of my open source projects here:
-<!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay-->
-<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->vacation.txt
+<!-- moredelaymoredelaymoredelaymoredelay-->
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglag -->vacation.txt
 
 Company Vacation Application
 Repo: <a href="https://github.com/ndom91/CompanyVacations">ndom91/CompanyVacations</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
-<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->maintenance.txt
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglag -->maintenance.txt
 
 Network Maintenance Management Application
 Repo: <a href="https://github.com/ndom91/NewtelcoMaintenance">ndom91/NewtelcoMaintenance</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
-<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->noc.txt
+<span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglag -->noc.txt
 
 NOC Dashboard
 Repo: <a href="https://github.com/ndom91/nt-noc-dashboard">ndom91/nt-noc-dashboard</a>
-<!-- delaydelaydelaydelaydelaydelaydelay -->
+<!-- delaydelaydelaydelay -->
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat social.txt
 
 As well as some of my online profiles:<br> 
