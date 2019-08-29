@@ -10,6 +10,8 @@ type TypistState ={
 }
 
 class Typist extends Component<TypistType, TypistState> {
+  timeoutId:number = 0
+
   constructor (props:TypistType) {
     super(props)
 
@@ -19,23 +21,9 @@ class Typist extends Component<TypistType, TypistState> {
     }
   }
 
+
   componentDidMount() {
-    const {
-      file
-    } = this.props
-
-    const {
-      index
-    } = this.state 
-
-    let intervalId: NodeJS.Timeout
-
-    if (index < file.length) {
-      intervalId = setInterval(() => { this.write() }, 10)
-    } else {
-      clearInterval(intervalId)
-    }
-
+    this.timeoutId = window.setInterval(() => { this.write() }, 10)
   }
 
   write = () => {
@@ -49,14 +37,15 @@ class Typist extends Component<TypistType, TypistState> {
 
     const intermediateText = file.slice(0, file.length - (file.length - index))
 
-    console.log(index)
-
     const newIndex = index + 1
     this.setState({ 
       renderText: intermediateText,
       index: newIndex
     })
 
+    if (index >= file.length) {
+      clearInterval(this.timeoutId)
+    }
   }
 
   render () {

@@ -26,8 +26,7 @@
       "preact",
       "preact-compat",
       "preact-emotion",
-      "preact-router",
-      "preactyper"
+      "preact-router"
     ]
   },
   "dependencies": {
@@ -35,8 +34,7 @@
     "preact": "^8.5.2",
     "preact-compat": "^3.19.0",
     "preact-emotion": "^9.2.12",
-    "preact-router": "^2.6.1",
-    "preactyper": "^0.6.1"
+    "preact-router": "^2.6.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
