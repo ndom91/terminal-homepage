@@ -1,6 +1,6 @@
 # 🖥️ Terminal Homepage
 
-Pika/Web + Preact + Typescript Example Project
+🎉 @Pika/Web + Preact + Typescript + Babel Example Project
 
 ![screenshot1](terminal.gif)
 
