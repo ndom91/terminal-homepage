@@ -10,20 +10,20 @@ body {
 }
 
 .terminal-window header .button {
-    width: 12px;
-    height: 12px;
-    margin: 10px 4px 0 0;
-    display: inline-block;
-    border-radius: 8px;
+	width: 12px;
+	height: 12px;
+	margin: 10px 7px 0 0;
+	display: inline-block;
+	border-radius: 8px;
 }
 .terminal-window header .button.red {
-    background: #DD373B;
+	background: #DD373B;
 }
 .terminal-window header .button.yellow {
-    background: #F6AE24;
+	background: #F6AE24;
 }
 .terminal-window header .button.green {
-    background: #33D234;
+	background: #33D234;
 }
 
 header {
@@ -50,7 +50,6 @@ header {
 }
 
 .terminal-body {
-	/* background-color: rgba(0, 0, 0, 0.737); */
 	min-height: 10px;
 }
 
@@ -69,18 +68,4 @@ a {
 
 #b {
 	color: #ff0096;
-}
-
-#k {
-    	animation: change 1s;
-}
-
-#op{
-    	color: #888888
-}
-
-@keyframes change {
-    	0%  { color:  #0f0; }
-    	50% { color:  #0f0; }
-    	99% { color: black; }
 }
