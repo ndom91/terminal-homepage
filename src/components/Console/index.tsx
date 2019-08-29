@@ -4,8 +4,8 @@ import Typist from '../Typist'
 import text from './text'
 
 const Container = styled('div')`
-  display: 'flex';
-  width: '750px';
+  display: flex;
+  width: 750px;
 `
 
 const Console: preact.FunctionalComponent = () => (

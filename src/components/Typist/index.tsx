@@ -43,6 +43,16 @@ class Typist extends Component<TypistType, TypistState> {
       index: newIndex
     })
 
+    const body = document.querySelector('body')
+
+    if (body && body.scrollHeight > window.innerHeight) {
+      window.scrollBy({
+        top: 50,
+        behavior: 'auto'
+      });
+    }
+
+
     if (index >= file.length) {
       clearInterval(this.timeoutId)
     }
