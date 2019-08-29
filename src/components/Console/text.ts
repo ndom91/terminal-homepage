@@ -11,17 +11,17 @@ You can find some of my open source projects here:
 <!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay-->
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->vacation.txt
 
-Newtelco Vacation App
+Company Vacation Application
 Repo: <a href="https://github.com/ndom91/CompanyVacations">ndom91/CompanyVacations</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->maintenance.txt
 
-Newtelco Maintenance Application
+Network Maintenance Management Application
 Repo: <a href="https://github.com/ndom91/NewtelcoMaintenance">ndom91/NewtelcoMaintenance</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat <!-- laglaglaglaglaglaglaglaglag -->noc.txt
 
-Newtelco NOC Dashboard
+NOC Dashboard
 Repo: <a href="https://github.com/ndom91/nt-noc-dashboard">ndom91/nt-noc-dashboard</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
 <span id="a">ndo@ndo1</span>:<span id="b">~</span><span id="c">$</span> cat social.txt

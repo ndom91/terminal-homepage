@@ -23,7 +23,7 @@ class Typist extends Component<TypistType, TypistState> {
 
 
   componentDidMount() {
-    this.timeoutId = window.setInterval(() => { this.write() }, 10)
+    this.timeoutId = window.setInterval(() => { this.write() }, 20)
   }
 
   write = () => {
