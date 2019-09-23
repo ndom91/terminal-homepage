@@ -27,7 +27,22 @@
       "preact-compat",
       "preact-emotion",
       "preact-router"
-    ]
+    ],
+     "namedExports": {
+      "node_modules/preact/dist/preact.umd.js": [
+        "Component",
+        "cloneElement",
+        "createElement",
+        "createRef",
+        "h",
+        "options",
+        "render",
+        "rerender"
+      ],
+      "node_modules/preact-context/dist/context.min.js": [
+        "createContext"
+      ]
+    }
   },
   "dependencies": {
     "emotion": "^9.2.12",
@@ -45,7 +60,7 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
-    "@pika/web": "^0.4.2",
+    "@pika/web": "^0.6.1",
     "@typescript-eslint/eslint-plugin": "^1.8.0",
     "@typescript-eslint/parser": "^1.8.0",
     "babel-plugin-import-pika-web": "0.0.5",
