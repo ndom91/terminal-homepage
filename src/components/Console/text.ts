@@ -11,18 +11,18 @@ You can find some of my open source projects here:
 <!-- moredelaymoredelaymoredelaymoredelay-->
 <span id="a">ndo@ndo1</span>(<span id="b">About</span>)<span id="c">$</span> cat <!-- laglaglaglag -->vacation.txt
 
-Company Vacation Application
-Repo: <a href="https://github.com/ndom91/CompanyVacations">ndom91/CompanyVacations</a>
+Company Absence Management Application
+Repo: <a href="https://github.com/ndom91/timeoff">ndom91/TimeOff</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
 <span id="a">ndo@ndo1</span>(<span id="b">About</span>)<span id="c">$</span> cat <!-- laglaglaglag -->maintenance.txt
 
 Network Maintenance Management Application
-Repo: <a href="https://github.com/ndom91/NewtelcoMaintenance">ndom91/NewtelcoMaintenance</a>
+Repo: <a href="https://github.com/ndom91/next-maintenance">ndom91/next-maintenance</a>
 <!-- delaydelaydelaydelaydelaydelaydelay -->
 <span id="a">ndo@ndo1</span>(<span id="b">About</span>)<span id="c">$</span> cat <!-- laglaglaglag -->noc.txt
 
-NOC Dashboard
-Repo: <a href="https://github.com/ndom91/nt-noc-dashboard">ndom91/nt-noc-dashboard</a>
+Company Landing Page
+Repo: <a href="https://github.com/ndom91/gatsby-landing">ndom91/gatsby-landing</a>
 <!-- delaydelaydelaydelay -->
 <span id="a">ndo@ndo1</span>(<span id="b">About</span>)<span id="c">$</span> cat social.txt
 
