@@ -1,6 +1,6 @@
 {
   "name": "terminal-homepage",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Example Pika + Preact + Typescript + Babel website",
   "author": "Nico Domino <yo@ni.co.de>",
   "license": "MIT",
@@ -28,7 +28,7 @@
       "preact-emotion",
       "preact-router"
     ],
-     "namedExports": {
+    "namedExports": {
       "node_modules/preact/dist/preact.umd.js": [
         "Component",
         "cloneElement",

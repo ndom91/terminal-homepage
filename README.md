@@ -2,6 +2,8 @@
 
 #### 🎉 `@Pika/Web` + `Preact` + `Typescript` + `Babel` Example Project
 
+[Demo](https://web-typer-demo.netlify.com)
+
 ![screenshot1](terminal.gif)
 
 ## 🚀 Getting Started
